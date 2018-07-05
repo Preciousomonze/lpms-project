@@ -1,0 +1,325 @@
+﻿<Page
+    x:Class="Lpms.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lpms"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="#f2f2f2">
+        <Grid>
+            <Grid.Resources>
+                <Style x:Key="btn" TargetType="Button">
+                    <Style.Setters>
+                        <Setter Property="Width" Value="200"/>
+                        <Setter Property="Height" Value="200"/>
+                        <Setter Property="Background" Value="#cc000000"/>
+                        <Setter Property="HorizontalAlignment" Value="Stretch" />
+                        <Setter Property="Margin" Value="-3" />
+                        <Setter Property="VerticalAlignment" Value="Stretch" />
+                        <Setter Property="Margin" Value="0 5 0 20" />
+                    </Style.Setters>
+
+                </Style>
+
+                <Style x:Key="inner_btn" TargetType="StackPanel">
+                    <Setter Property="Orientation" Value="Vertical"/>
+                </Style>
+                <Style x:Name="results" TargetType="StackPanel">
+                    <Setter Property="Margin" Value="0 10 0 0" />
+                    <Setter Property="Width" Value="30"/>
+                    <Setter Property="Height" Value="30"/>
+                    <Setter Property="Background" Value="#FFDC3E3E"/>
+
+                </Style>
+
+                <Style x:Key="result_txt" TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="#ffffff"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="20"/>
+
+                </Style>
+
+                <Style x:Key="img" TargetType="Image">
+                    <Setter Property="Width" Value="20"/>
+                    <Setter Property="Height" Value="20"/>
+                </Style>
+
+                <Style x:Key="btn_txt" TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="20"/>
+
+                </Style>
+                <Style x:Key="user_details" TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="Padding" Value="10 3 5 0"/>
+                    <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                    <Setter Property="MaxWidth" Value="310"/>
+                    <Setter Property="FontWeight" Value="Light"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Style>
+            </Grid.Resources>
+            <StackPanel>
+                <StackPanel x:Name="title" Width="auto" Height="70" Background="#4BA783" Margin="0 0 0 0">
+                    <StackPanel Orientation="Vertical" Width="auto">
+
+                            <TextBlock Text="PLM System" Foreground="#fff" FontSize="30" FontWeight="Bold" FontStretch="ExtraExpanded" HorizontalAlignment="Left" Margin="10,20,0,10"/>
+
+                        <StackPanel HorizontalAlignment="Right" Width="350" Background="#FF363636" VerticalAlignment="Stretch" Margin="0 -69 0 0" Height="130">
+                            <StackPanel Orientation="Horizontal" Height="70">
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="Assets/icons/big-user-white.png" Margin="10 0 0 0" Height="20" Width="20"/>
+                                    <HyperlinkButton Padding="-2" Margin="0" x:Name="Profile" Click="Profile_Click">
+                                        <TextBlock Foreground="White" FontWeight="Light" MaxWidth="210" TextWrapping="Wrap" TextTrimming="WordEllipsis"  x:Name="fullname" VerticalAlignment="Center"  Padding="10 10 0 5" FontSize="21" Height="44" Margin="0,14,0,10"/>
+                                    </HyperlinkButton>
+                                </StackPanel>
+                                <Border BorderBrush="#33000000" BorderThickness="1"/>
+
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="Assets/icons/20-action-white.png" Margin="10 0 0 0" Height="20" Width="20"/>
+                                    <HyperlinkButton VerticalAlignment="Center" x:Name="Logout" Click="Logout_Click" FontSize="17" Foreground="#ffffff" Content="Logout"/>
+                                </StackPanel>
+
+
+                            </StackPanel>
+
+
+                        </StackPanel>
+
+                </StackPanel>
+
+                    <Border BorderBrush="#cc000000" BorderThickness="1"/>
+
+                </StackPanel>
+                <StackPanel Height="100">
+                    <Border BorderBrush="#90000000" BorderThickness="1">
+                        <Image Source="Assets/Images/home-header.png" Margin="-1 0.2 0 0" Height="auto" Width="auto"/>
+                    </Border>
+                </StackPanel>
+
+            </StackPanel>
+
+            <!-- BODY -->
+            <Grid Margin="0 70 0 10">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Grid.Row="0" Width="800" Margin="0 50 0 0" Padding="50 0 80 0" HorizontalAlignment="Left">
+                    <Border  BorderBrush="#23000000"  BorderThickness="1" >
+                        <StackPanel Background="White" Width="auto" MinHeight="400" Orientation="vertical" Margin="0 0 0 0">
+                            <StackPanel Background="#FFF3F3F3">
+                                <TextBlock Text="Overview" Foreground="#cc000000" FontWeight="SemiLight" FontSize="20" Margin="10 20 0 10"/>
+                                <Border BorderBrush="#11000000" BorderThickness="1" />
+                            </StackPanel>
+                            <Grid Margin="0 10 0 0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button x:Name="PatientPage" Grid.Row="0" Grid.Column="0" Click="PatientPage_Click" Style="{StaticResource btn}" HorizontalAlignment="Stretch" Margin="3" VerticalAlignment="Stretch">
+                                    <StackPanel Style="{StaticResource inner_btn}">
+                                        <TextBlock Text="Patients" Style="{StaticResource btn_txt}" />
+                                        <StackPanel Style="{StaticResource results}">
+                                            <TextBlock x:Name="patient_r" Style="{StaticResource result_txt}"/>
+
+                                        </StackPanel>
+
+                                    </StackPanel>
+                                </Button>
+
+                                <Button x:Name="TestPage" Grid.Row="0" Grid.Column="1" Click="TestPage_Click" Style="{StaticResource btn}" Margin="3">
+                                    <StackPanel Style="{StaticResource inner_btn}">
+                                        <TextBlock Text="Tests" Style="{StaticResource btn_txt}" />
+                                        <StackPanel Style="{StaticResource results}">
+                                            <TextBlock x:Name="test_r" Style="{StaticResource result_txt}"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Button>
+
+                                <Button x:Name="ItemPage" Grid.Row="1" Grid.Column="0" Click="ItemPage_Click" Style="{StaticResource btn}">
+                                    <StackPanel>
+                                        <TextBlock Text="Items" Style="{StaticResource btn_txt}" />
+                                        <StackPanel Style="{StaticResource results}">
+                                            <TextBlock x:Name="item_r" Style="{StaticResource result_txt}"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Button>
+
+                                <Button x:Name="PurchasePage" Grid.Row="1" Grid.Column="1" Click="PurchasePage_Click" Style="{StaticResource btn}">
+                                    <StackPanel>
+                                        <TextBlock Text="Purchases" Style="{StaticResource btn_txt}" />
+                                        <StackPanel Style="{StaticResource results}">
+                                            <TextBlock x:Name="purchase_r" Style="{StaticResource result_txt}"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Button>
+                                <Button x:Name="ReportPage" Grid.Row="2" Grid.Column="0" Click="ReportPage_Click" Style="{StaticResource btn}">
+                                    <StackPanel>
+                                        <TextBlock Text="Reports" Style="{StaticResource btn_txt}" />
+                                        <StackPanel Style="{StaticResource results}">
+
+                                            <TextBlock x:Name="report_r" Style="{StaticResource result_txt}"/>
+                                        </StackPanel>
+
+                                    </StackPanel>
+                                </Button>
+                                <Button x:Name="DoctorPage" Grid.Row="2" Grid.Column="1" Click="DoctorPage_Click" Style="{StaticResource btn}">
+                                    <StackPanel>
+                                        <TextBlock Text="Doctors" Style="{StaticResource btn_txt}" />
+                                        <StackPanel Style="{StaticResource results}">
+                                            <TextBlock x:Name="Doctor_r" Style="{StaticResource result_txt}"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Button>
+                            </Grid>
+
+                        </StackPanel>
+                    </Border>
+                </Border>
+
+                <!--SECOND COLUMN-->
+                
+                <StackPanel Grid.Row="0" Grid.Column="1" Margin="-1 100 0 0" VerticalAlignment="Top" Orientation="Horizontal">
+                   
+                    <StackPanel.Resources>
+                        <Style x:Key="head" TargetType="StackPanel">
+                            <Setter Property="Margin" Value="5 7 5 0"/>
+                        </Style>
+
+                        <Style x:Key="head_txt" TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="#ffffff"/>
+                            <Setter Property="TextWrapping" Value="Wrap"/>
+                            <Setter Property="FontSize" Value="27"/>
+                            <Setter Property="Padding" Value="10 3"/>
+                        </Style>
+
+
+                        <Style x:Key="head_write_up" TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="#ffffff"/>
+                            <Setter Property="TextWrapping" Value="Wrap"/>
+                            <Setter Property="FontSize" Value="16"/>
+                            <Setter Property="Padding" Value="14 16"/>
+                            <Setter Property="Width" Value="330"/>
+                        </Style>
+
+                        <Style x:Key="head_border" TargetType="Border">
+
+                        </Style>
+
+
+                        <Style x:Key="pic_sep" TargetType="StackPanel">
+                            <Setter Property="Background" Value="#FFC3403A"/>
+                            <Setter Property="Orientation" Value="Horizontal"/>
+                        </Style>
+
+                        <Style x:Key="pic_img" TargetType="Image">
+                            <Setter Property="Height" Value="50"/>
+                            <Setter Property="Width" Value="50"/>
+
+                            <Setter Property="Margin" Value="0 20 0 0"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                        </Style>
+
+                        <Style x:Key="pic_txt" TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="#f7f7f7"/>
+                            <Setter Property="TextWrapping" Value="Wrap"/>
+                            <Setter Property="FontSize" Value="25"/>
+                            <Setter Property="Padding" Value="10 3"/>
+                            <Setter Property="VerticalAlignment" Value="Center"/>
+                            <Setter Property="Margin" Value="0 30 0 0"/>
+
+                        </Style>
+
+
+                    </StackPanel.Resources>
+
+                    <Canvas>
+                        <Image Source="Assets/Images/home-bg.jpg" Margin="0 -100 0 0" Height="auto" Width="auto"/>
+
+                    </Canvas>
+                    <Border BorderBrush="#13000000" BorderThickness="1" MinHeight="300" Margin="20 0 20 0" CornerRadius="4">
+                        <StackPanel Background="#aa286CA8" MinHeight="300" Width="330" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                            <!-- HEAD PART-->
+                            <StackPanel Style="{StaticResource head}">
+                                <TextBlock Text="Patients"  Style="{StaticResource head_txt}"/>
+                                <Border BorderBrush="#13000000" BorderThickness="1"/>
+                                <TextBlock Text="The list of patients is displayed in the patients page, it has all the necessary details of the patient needed, address, their fullnames, the phone number, gender , the date of birth of the patient. so when adding their test results, the info is well collected." Style="{StaticResource head_write_up}"/>
+                            </StackPanel>
+
+                            <Border BorderBrush="#73000000" BorderThickness="1">
+
+                                <StackPanel Style="{StaticResource pic_sep}" Background="#f0286CA8">
+                                    <StackPanel Background="#C3403A" Width="130" Height="100">
+                                        <Image Source="Assets/Icons/big-user-white.png" Style="{StaticResource pic_img}"/>
+                                    </StackPanel>
+                                    <StackPanel>
+                                        <TextBlock Text="Patients"  Style="{StaticResource pic_txt}"/>
+
+                                    </StackPanel>
+
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+
+
+                    </Border>
+
+                    <!---/////////////////-->
+
+                    <Border BorderBrush="#23000000" BorderThickness="1">
+                        <StackPanel Background="#aaC3403A" MinHeight="300" Width="auto">
+                            <!-- HEAD PART-->
+                            <StackPanel Style="{StaticResource head}">
+                                <TextBlock Text="Records" Style="{StaticResource head_txt}"/>
+                                <Border BorderBrush="#13000000" BorderThickness="1"/>
+                                <TextBlock  Text="The report list is one of a kind, it has a nice display of what the report is about, who it's for, what test it belongs to, when it was added, you can also figure out when it was last edited or updated. It's easy to delete them or assign them to another test if the need be." Style="{StaticResource head_write_up}"/>
+                            </StackPanel>
+
+                            <Border BorderBrush="#73000000" BorderThickness="1">
+
+                                <StackPanel Style="{StaticResource pic_sep}" Background="#FFC3403A">
+                                    <StackPanel Background="#286CA8" Width="130" Height="100">
+                                        <Image Source="Assets/Icons/big-info-white.png" Style="{StaticResource pic_img}"/>
+                                    </StackPanel>
+                                    <StackPanel>
+
+                                        <TextBlock Text="Reports"  Style="{StaticResource pic_txt}"/>
+
+                                    </StackPanel>
+
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+
+
+                    </Border>
+
+
+                </StackPanel>
+
+            </Grid>
+            <!--//BODY-->
+        </Grid>
+    </Grid>
+</Page>

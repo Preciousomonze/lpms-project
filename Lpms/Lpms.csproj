@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E285F463-AD29-481C-8A79-A9ABC1AEA1C2}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lpms</RootNamespace>
+    <AssemblyName>Lpms</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Lpms_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Auth.cs" />
+    <Compile Include="Classes\Catcher.cs" />
+    <Compile Include="Classes\Connection.cs" />
+    <Compile Include="Classes\EditTracker.cs" />
+    <Compile Include="Classes\Filter.cs" />
+    <Compile Include="Classes\Loader.cs" />
+    <Compile Include="Classes\Messages.cs" />
+    <Compile Include="Classes\Navigator.cs" />
+    <Compile Include="Classes\Popup.cs" />
+    <Compile Include="Classes\Query.cs" />
+    <Compile Include="Classes\Requests.cs" />
+    <Compile Include="Classes\Split.cs" />
+    <Compile Include="Doctors.xaml.cs">
+      <DependentUpon>Doctors.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Items.xaml.cs">
+      <DependentUpon>Items.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Parent.xaml.cs">
+      <DependentUpon>Parent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Patients.xaml.cs">
+      <DependentUpon>Patients.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchases.xaml.cs">
+      <DependentUpon>Purchases.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.xaml.cs">
+      <DependentUpon>Reports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceDictionaries\Design.xaml.cs">
+      <DependentUpon>Design.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.xaml.cs">
+      <DependentUpon>SignUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tests.xaml.cs">
+      <DependentUpon>Tests.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Lpms_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\icons\20-action-white.png" />
+    <Content Include="Assets\icons\action-black.png" />
+    <Content Include="Assets\icons\action-white.png" />
+    <Content Include="Assets\icons\alert-black.png" />
+    <Content Include="Assets\icons\alert-white.png" />
+    <Content Include="Assets\icons\arrow-d-black.png" />
+    <Content Include="Assets\icons\arrow-d-l-black.png" />
+    <Content Include="Assets\icons\arrow-d-l-white.png" />
+    <Content Include="Assets\icons\arrow-d-r-black.png" />
+    <Content Include="Assets\icons\arrow-d-r-white.png" />
+    <Content Include="Assets\icons\arrow-d-white.png" />
+    <Content Include="Assets\icons\arrow-l-black.png" />
+    <Content Include="Assets\icons\arrow-l-white.png" />
+    <Content Include="Assets\icons\arrow-r-black.png" />
+    <Content Include="Assets\icons\arrow-r-white.png" />
+    <Content Include="Assets\icons\arrow-u-black.png" />
+    <Content Include="Assets\icons\arrow-u-l-black.png" />
+    <Content Include="Assets\icons\arrow-u-l-white.png" />
+    <Content Include="Assets\icons\arrow-u-r-black.png" />
+    <Content Include="Assets\icons\arrow-u-r-white.png" />
+    <Content Include="Assets\icons\arrow-u-white.png" />
+    <Content Include="Assets\icons\audio-black.png" />
+    <Content Include="Assets\icons\audio-white.png" />
+    <Content Include="Assets\icons\back-black.png" />
+    <Content Include="Assets\icons\back-white-big.png" />
+    <Content Include="Assets\icons\back-white.png" />
+    <Content Include="Assets\icons\bars-black.png" />
+    <Content Include="Assets\icons\bars-white.png" />
+    <Content Include="Assets\icons\big-info-white.png" />
+    <Content Include="Assets\icons\big-user-white.png" />
+    <Content Include="Assets\icons\bullets-black.png" />
+    <Content Include="Assets\icons\bullets-white.png" />
+    <Content Include="Assets\icons\calendar-black.png" />
+    <Content Include="Assets\icons\calendar-white.png" />
+    <Content Include="Assets\icons\camera-black.png" />
+    <Content Include="Assets\icons\camera-white.png" />
+    <Content Include="Assets\icons\carat-d-black.png" />
+    <Content Include="Assets\icons\carat-d-white.png" />
+    <Content Include="Assets\icons\carat-l-black.png" />
+    <Content Include="Assets\icons\carat-l-white.png" />
+    <Content Include="Assets\icons\carat-r-black.png" />
+    <Content Include="Assets\icons\carat-r-white.png" />
+    <Content Include="Assets\icons\carat-u-black.png" />
+    <Content Include="Assets\icons\carat-u-white.png" />
+    <Content Include="Assets\icons\check-black.png" />
+    <Content Include="Assets\icons\check-white.png" />
+    <Content Include="Assets\icons\clock-black.png" />
+    <Content Include="Assets\icons\clock-white.png" />
+    <Content Include="Assets\icons\cloud-black.png" />
+    <Content Include="Assets\icons\cloud-white.png" />
+    <Content Include="Assets\icons\comment-black.png" />
+    <Content Include="Assets\icons\comment-white.png" />
+    <Content Include="Assets\icons\delete-black.png" />
+    <Content Include="Assets\icons\delete-white.png" />
+    <Content Include="Assets\icons\edit-black.png" />
+    <Content Include="Assets\icons\edit-white.png" />
+    <Content Include="Assets\icons\eye-black.png" />
+    <Content Include="Assets\icons\eye-white.png" />
+    <Content Include="Assets\icons\forbidden-black.png" />
+    <Content Include="Assets\icons\forbidden-white.png" />
+    <Content Include="Assets\icons\forward-black.png" />
+    <Content Include="Assets\icons\forward-white.png" />
+    <Content Include="Assets\icons\gear-black.png" />
+    <Content Include="Assets\icons\gear-white.png" />
+    <Content Include="Assets\icons\grid-black.png" />
+    <Content Include="Assets\icons\grid-white.png" />
+    <Content Include="Assets\icons\heart-black.png" />
+    <Content Include="Assets\icons\heart-white.png" />
+    <Content Include="Assets\icons\home-black.png" />
+    <Content Include="Assets\icons\home-white.png" />
+    <Content Include="Assets\icons\info-black-big.png" />
+    <Content Include="Assets\icons\info-black.png" />
+    <Content Include="Assets\icons\info-white.png" />
+    <Content Include="Assets\icons\location-black.png" />
+    <Content Include="Assets\icons\location-white.png" />
+    <Content Include="Assets\icons\lock-black-big.png" />
+    <Content Include="Assets\icons\lock-black.png" />
+    <Content Include="Assets\icons\lock-white.png" />
+    <Content Include="Assets\icons\logo.png" />
+    <Content Include="Assets\icons\mail-black.png" />
+    <Content Include="Assets\icons\mail-white.png" />
+    <Content Include="Assets\icons\minus-black.png" />
+    <Content Include="Assets\icons\minus-white.png" />
+    <Content Include="Assets\icons\navigation-black.png" />
+    <Content Include="Assets\icons\navigation-white.png" />
+    <Content Include="Assets\icons\phone-black.png" />
+    <Content Include="Assets\icons\phone-white.png" />
+    <Content Include="Assets\icons\plus-black.png" />
+    <Content Include="Assets\icons\plus-white.png" />
+    <Content Include="Assets\icons\power-black.png" />
+    <Content Include="Assets\icons\power-white.png" />
+    <Content Include="Assets\icons\recycle-black.png" />
+    <Content Include="Assets\icons\recycle-white.png" />
+    <Content Include="Assets\icons\refresh-black.png" />
+    <Content Include="Assets\icons\refresh-white.png" />
+    <Content Include="Assets\icons\search-black.png" />
+    <Content Include="Assets\icons\search-white.png" />
+    <Content Include="Assets\icons\shop-black.png" />
+    <Content Include="Assets\icons\shop-white.png" />
+    <Content Include="Assets\icons\star-black.png" />
+    <Content Include="Assets\icons\star-white.png" />
+    <Content Include="Assets\icons\tag-black.png" />
+    <Content Include="Assets\icons\tag-white.png" />
+    <Content Include="Assets\icons\user-black-big.png" />
+    <Content Include="Assets\icons\user-black.png" />
+    <Content Include="Assets\icons\user-white.png" />
+    <Content Include="Assets\icons\video-black.png" />
+    <Content Include="Assets\icons\video-white.png" />
+    <Content Include="Assets\Images\home-header.png" />
+    <Content Include="Assets\Images\pexels-photo-249348.jpeg" />
+    <Content Include="Assets\Images\home-bg.jpg" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
+    <Content Include="Assets\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Doctors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Items.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Parent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Patients.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Purchases.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResourceDictionaries\Design.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SignUp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tests.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data.RT">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.RT.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

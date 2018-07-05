@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="Lpms.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lpms"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="#4BA783">
+        <StackPanel>
+            <StackPanel x:Name="title" MaxWidth="700" Height="200" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="assets/icons/logo.png" Width="130" Height="130" Margin ="10 5 30 10"/>
+                    <TextBlock Text="PLM System" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30 35 55 10"/>
+
+                </StackPanel>
+                <Border BorderBrush="#33ffffff" BorderThickness="1"/>
+
+            </StackPanel>
+            <StackPanel Width="700" Orientation="Horizontal" Margin="0 100 0 10">
+
+                <Button x:Name="LogIn" Click="LogIn_Click" Content="Log in" FontSize="25" Width="150" Height="80" Margin="100 0 0 0" BorderBrush="#26000000" BorderThickness="1" RenderTransformOrigin="1.018,0.693"  Background="#ffffff" Foreground="#4BA783"/>
+                <Button x:Name="SignUp" Click="SignUp_Click" Content="Sign Up" FontSize="25" Width="150" Height="80" Margin="200 0 0 0" Background="#ffffff" BorderBrush="#26000000" BorderThickness="1" Foreground="#4BA783"/>
+
+            </StackPanel>
+            <StackPanel Width="700" Margin="0 150 0 0">
+                <Border BorderBrush="#33ffffff" BorderThickness="1"/>
+                <TextBlock x:Name="copyright" Text="2017. All Rights Reserved" HorizontalAlignment="Center" FontSize="15" Padding="0 20 0 0"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>

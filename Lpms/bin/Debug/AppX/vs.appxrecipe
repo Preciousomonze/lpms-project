@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>OLAS</Machine>
+    <WindowsUser>crisp</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>65dccd88-7f45-485b-a264-210f6b554148</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>082BF5F4A8C8B2246C977B6F7374ADE05793F5811ED7BDD7A012C749FC2EEECD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>65dccd88-7f45-485b-a264-210f6b554148_1.0.0.0_neutral__qxzbskng17ek6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>65dccd88-7f45-485b-a264-210f6b554148_qxzbskng17ek6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>65dccd88-7f45-485b-a264-210f6b554148</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=crisp</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-03T20:53:02.154</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Lpms.exe">
+      <PackagePath>Lpms.exe</PackagePath>
+      <Modified>2017-05-21T09:55:40.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.RT.dll">
+      <PackagePath>MySql.Data.RT.dll</PackagePath>
+      <Modified>2015-06-19T01:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\20-action-white.png">
+      <PackagePath>Assets\icons\20-action-white.png</PackagePath>
+      <Modified>2017-04-05T16:06:21.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\action-black.png">
+      <PackagePath>Assets\icons\action-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\action-white.png">
+      <PackagePath>Assets\icons\action-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\alert-black.png">
+      <PackagePath>Assets\icons\alert-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\alert-white.png">
+      <PackagePath>Assets\icons\alert-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-d-black.png">
+      <PackagePath>Assets\icons\arrow-d-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-d-l-black.png">
+      <PackagePath>Assets\icons\arrow-d-l-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-d-l-white.png">
+      <PackagePath>Assets\icons\arrow-d-l-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-d-r-black.png">
+      <PackagePath>Assets\icons\arrow-d-r-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-d-r-white.png">
+      <PackagePath>Assets\icons\arrow-d-r-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-d-white.png">
+      <PackagePath>Assets\icons\arrow-d-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-l-black.png">
+      <PackagePath>Assets\icons\arrow-l-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-l-white.png">
+      <PackagePath>Assets\icons\arrow-l-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-r-black.png">
+      <PackagePath>Assets\icons\arrow-r-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-r-white.png">
+      <PackagePath>Assets\icons\arrow-r-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-u-black.png">
+      <PackagePath>Assets\icons\arrow-u-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-u-l-black.png">
+      <PackagePath>Assets\icons\arrow-u-l-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-u-l-white.png">
+      <PackagePath>Assets\icons\arrow-u-l-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-u-r-black.png">
+      <PackagePath>Assets\icons\arrow-u-r-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-u-r-white.png">
+      <PackagePath>Assets\icons\arrow-u-r-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\arrow-u-white.png">
+      <PackagePath>Assets\icons\arrow-u-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\audio-black.png">
+      <PackagePath>Assets\icons\audio-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\audio-white.png">
+      <PackagePath>Assets\icons\audio-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\back-black.png">
+      <PackagePath>Assets\icons\back-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\back-white-big.png">
+      <PackagePath>Assets\icons\back-white-big.png</PackagePath>
+      <Modified>2017-04-21T11:04:30.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\back-white.png">
+      <PackagePath>Assets\icons\back-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\bars-black.png">
+      <PackagePath>Assets\icons\bars-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\bars-white.png">
+      <PackagePath>Assets\icons\bars-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\big-info-white.png">
+      <PackagePath>Assets\icons\big-info-white.png</PackagePath>
+      <Modified>2017-04-05T13:39:11.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\big-user-white.png">
+      <PackagePath>Assets\icons\big-user-white.png</PackagePath>
+      <Modified>2017-04-05T12:13:40.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\bullets-black.png">
+      <PackagePath>Assets\icons\bullets-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\bullets-white.png">
+      <PackagePath>Assets\icons\bullets-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\calendar-black.png">
+      <PackagePath>Assets\icons\calendar-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\calendar-white.png">
+      <PackagePath>Assets\icons\calendar-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\camera-black.png">
+      <PackagePath>Assets\icons\camera-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\camera-white.png">
+      <PackagePath>Assets\icons\camera-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-d-black.png">
+      <PackagePath>Assets\icons\carat-d-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-d-white.png">
+      <PackagePath>Assets\icons\carat-d-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-l-black.png">
+      <PackagePath>Assets\icons\carat-l-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-l-white.png">
+      <PackagePath>Assets\icons\carat-l-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-r-black.png">
+      <PackagePath>Assets\icons\carat-r-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-r-white.png">
+      <PackagePath>Assets\icons\carat-r-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-u-black.png">
+      <PackagePath>Assets\icons\carat-u-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\carat-u-white.png">
+      <PackagePath>Assets\icons\carat-u-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\check-black.png">
+      <PackagePath>Assets\icons\check-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\check-white.png">
+      <PackagePath>Assets\icons\check-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\clock-black.png">
+      <PackagePath>Assets\icons\clock-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\clock-white.png">
+      <PackagePath>Assets\icons\clock-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\cloud-black.png">
+      <PackagePath>Assets\icons\cloud-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\cloud-white.png">
+      <PackagePath>Assets\icons\cloud-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\comment-black.png">
+      <PackagePath>Assets\icons\comment-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\comment-white.png">
+      <PackagePath>Assets\icons\comment-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\delete-black.png">
+      <PackagePath>Assets\icons\delete-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\delete-white.png">
+      <PackagePath>Assets\icons\delete-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\edit-black.png">
+      <PackagePath>Assets\icons\edit-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\edit-white.png">
+      <PackagePath>Assets\icons\edit-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\eye-black.png">
+      <PackagePath>Assets\icons\eye-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\eye-white.png">
+      <PackagePath>Assets\icons\eye-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\forbidden-black.png">
+      <PackagePath>Assets\icons\forbidden-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\forbidden-white.png">
+      <PackagePath>Assets\icons\forbidden-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\forward-black.png">
+      <PackagePath>Assets\icons\forward-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\forward-white.png">
+      <PackagePath>Assets\icons\forward-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\gear-black.png">
+      <PackagePath>Assets\icons\gear-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\gear-white.png">
+      <PackagePath>Assets\icons\gear-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\grid-black.png">
+      <PackagePath>Assets\icons\grid-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\grid-white.png">
+      <PackagePath>Assets\icons\grid-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\heart-black.png">
+      <PackagePath>Assets\icons\heart-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\heart-white.png">
+      <PackagePath>Assets\icons\heart-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\home-black.png">
+      <PackagePath>Assets\icons\home-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\home-white.png">
+      <PackagePath>Assets\icons\home-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\info-black-big.png">
+      <PackagePath>Assets\icons\info-black-big.png</PackagePath>
+      <Modified>2017-04-24T23:17:51.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\info-black.png">
+      <PackagePath>Assets\icons\info-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\info-white.png">
+      <PackagePath>Assets\icons\info-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\location-black.png">
+      <PackagePath>Assets\icons\location-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\location-white.png">
+      <PackagePath>Assets\icons\location-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\lock-black-big.png">
+      <PackagePath>Assets\icons\lock-black-big.png</PackagePath>
+      <Modified>2017-04-24T23:16:16.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\lock-black.png">
+      <PackagePath>Assets\icons\lock-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\lock-white.png">
+      <PackagePath>Assets\icons\lock-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\logo.png">
+      <PackagePath>Assets\icons\logo.png</PackagePath>
+      <Modified>2017-04-26T19:00:51.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\mail-black.png">
+      <PackagePath>Assets\icons\mail-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\mail-white.png">
+      <PackagePath>Assets\icons\mail-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\minus-black.png">
+      <PackagePath>Assets\icons\minus-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\minus-white.png">
+      <PackagePath>Assets\icons\minus-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\navigation-black.png">
+      <PackagePath>Assets\icons\navigation-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\navigation-white.png">
+      <PackagePath>Assets\icons\navigation-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\phone-black.png">
+      <PackagePath>Assets\icons\phone-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\phone-white.png">
+      <PackagePath>Assets\icons\phone-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\plus-black.png">
+      <PackagePath>Assets\icons\plus-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\plus-white.png">
+      <PackagePath>Assets\icons\plus-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\power-black.png">
+      <PackagePath>Assets\icons\power-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\power-white.png">
+      <PackagePath>Assets\icons\power-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\recycle-black.png">
+      <PackagePath>Assets\icons\recycle-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\recycle-white.png">
+      <PackagePath>Assets\icons\recycle-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\refresh-black.png">
+      <PackagePath>Assets\icons\refresh-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\refresh-white.png">
+      <PackagePath>Assets\icons\refresh-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\search-black.png">
+      <PackagePath>Assets\icons\search-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\search-white.png">
+      <PackagePath>Assets\icons\search-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\shop-black.png">
+      <PackagePath>Assets\icons\shop-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\shop-white.png">
+      <PackagePath>Assets\icons\shop-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\star-black.png">
+      <PackagePath>Assets\icons\star-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\star-white.png">
+      <PackagePath>Assets\icons\star-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\tag-black.png">
+      <PackagePath>Assets\icons\tag-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\tag-white.png">
+      <PackagePath>Assets\icons\tag-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\user-black-big.png">
+      <PackagePath>Assets\icons\user-black-big.png</PackagePath>
+      <Modified>2017-04-24T23:14:35.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\user-black.png">
+      <PackagePath>Assets\icons\user-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\user-white.png">
+      <PackagePath>Assets\icons\user-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\video-black.png">
+      <PackagePath>Assets\icons\video-black.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\icons\video-white.png">
+      <PackagePath>Assets\icons\video-white.png</PackagePath>
+      <Modified>2014-07-01T07:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\Images\home-header.png">
+      <PackagePath>Assets\Images\home-header.png</PackagePath>
+      <Modified>2017-04-20T22:52:09.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-25T12:10:56.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-25T12:10:56.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-25T12:19:58.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-25T12:21:18.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-25T12:22:11.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-25T12:27:55.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\Square70x70Logo.scale-80.png">
+      <PackagePath>Assets\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-04-25T12:27:23.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T06:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\Images\pexels-photo-249348.jpeg">
+      <PackagePath>Assets\Images\pexels-photo-249348.jpeg</PackagePath>
+      <Modified>2017-04-25T11:19:38.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\Assets\Images\home-bg.jpg">
+      <PackagePath>Assets\Images\home-bg.jpg</PackagePath>
+      <Modified>2017-04-25T11:19:39.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2017-04-25T11:09:41.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Doctors.xbf">
+      <PackagePath>Doctors.xbf</PackagePath>
+      <Modified>2017-05-04T14:18:12.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Home.xbf">
+      <PackagePath>Home.xbf</PackagePath>
+      <Modified>2017-04-28T01:25:44.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Items.xbf">
+      <PackagePath>Items.xbf</PackagePath>
+      <Modified>2017-05-04T14:18:12.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Login.xbf">
+      <PackagePath>Login.xbf</PackagePath>
+      <Modified>2017-04-28T01:25:44.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2017-04-28T01:25:44.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Parent.xbf">
+      <PackagePath>Parent.xbf</PackagePath>
+      <Modified>2017-05-05T13:43:22.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Patients.xbf">
+      <PackagePath>Patients.xbf</PackagePath>
+      <Modified>2017-05-05T13:43:22.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Profile.xbf">
+      <PackagePath>Profile.xbf</PackagePath>
+      <Modified>2017-04-26T19:04:30.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Purchases.xbf">
+      <PackagePath>Purchases.xbf</PackagePath>
+      <Modified>2017-05-04T14:18:12.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Reports.xbf">
+      <PackagePath>Reports.xbf</PackagePath>
+      <Modified>2017-05-04T14:18:12.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\ResourceDictionaries\Design.xbf">
+      <PackagePath>ResourceDictionaries\Design.xbf</PackagePath>
+      <Modified>2017-04-25T11:09:41.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\SignUp.xbf">
+      <PackagePath>SignUp.xbf</PackagePath>
+      <Modified>2017-04-28T01:25:44.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Tests.xbf">
+      <PackagePath>Tests.xbf</PackagePath>
+      <Modified>2017-05-04T14:18:12.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\Lpms.xr.xml">
+      <PackagePath>Lpms.xr.xml</PackagePath>
+      <Modified>2017-05-05T13:43:22.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\crisp\Documents\Aptech\Sem 4\project\Lpms\Lpms\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2017-05-05T14:42:42.702</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

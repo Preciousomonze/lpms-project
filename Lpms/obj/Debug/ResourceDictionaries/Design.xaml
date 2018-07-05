@@ -1,0 +1,11 @@
+﻿<ResourceDictionary
+    x:Class="Lpms.ResourceDictionaries.Design"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+    <Style x:Key="log-page" TargetType="x:Grid">
+        
+    </Style>
+    -->
+</ResourceDictionary>
+

@@ -1,0 +1,80 @@
+﻿<Application
+    x:Class="Lpms.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lpms">
+    <Application.Resources>
+        <Style x:Key="side_body" TargetType="Grid"/>
+        <Style x:Key="record_label_border" TargetType="Border">
+            <Setter Property="Background" Value="#ffffff"/>
+            <Setter Property="BorderBrush" Value="#19000000"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+        <Style x:Key="record_label" TargetType="StackPanel">
+            
+        </Style>
+        <Style x:Key="record_label_txt" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#cc000000"/>
+             <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="20,10,0,10"/>
+        </Style>
+
+        
+        
+        <!--/////////////////////////////////////////////-->
+        <!-- TABLE HEAD BORDER -->
+        <Style x:Key="table_head_border" TargetType="Border">
+            <Setter Property="BorderBrush" Value="#19000000" />
+            <Setter Property="BorderThickness" Value="0 0 1 1"/>
+            <!--<Setter Property="Background" Value="#E8F3F0"/>-->
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0 0 0 0 "/>
+        </Style>
+
+        <!-- table head-->
+        <Style x:Key="table_head" TargetType="StackPanel">
+            <Setter Property="MinWidth" Value="140"/>
+            <Setter Property="Background" Value="#E7e7e7"/>
+            <Setter Property="Margin" Value="0 0 0 0"/>
+
+            <Setter Property="VerticalAlignment" Value="Stretch"/>
+        </Style>
+        <!--table head text -->
+        <Style x:Key="table_head_txt" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#cc000000"/>
+            <Setter Property="Margin" Value="10 10 10 10"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+
+        <!--/////////////////////////////////////////////-->
+
+        <!-- ADD RECORD BUTTON -->
+        <Style x:Key="add_btn" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="BorderBrush" Value="#19000000" />
+            <Setter Property="BorderThickness" Value=" 1"/>
+            <Setter Property="Background" Value="#91000000"/>
+            <Setter Property="Padding" Value="20 10"/>
+            <Setter Property="Margin" Value="0 -45 0 0 "/>
+        </Style>
+
+
+        <!-- table head-->
+        <Style x:Key="table_head_option" TargetType="StackPanel">
+            <Setter Property="MinWidth" Value="140"/>
+            <Setter Property="Background" Value="#e1e1e1"/>
+            <Setter Property="Margin" Value="0 0 0 0"/>
+
+            <Setter Property="VerticalAlignment" Value="Stretch"/>
+        </Style>
+    </Application.Resources>
+    <!--
+    <Application.Resources>
+        <ResourceDictionary Source="ResourceDictionaries/Design.xaml" />
+            
+    </Application.Resources>
+-->
+</Application>
+
